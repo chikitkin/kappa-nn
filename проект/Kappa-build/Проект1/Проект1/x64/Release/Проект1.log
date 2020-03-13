@@ -1,0 +1,20 @@
+﻿  approximation.cpp
+d:\downloads\проект-каппа\проект\kappa\src\approximations\../include/approximation.hpp(22): fatal error C1083: Cannot open include file: 'armadillo': No such file or directory
+  approximation_onet.cpp
+d:\downloads\проект-каппа\проект\kappa\src\include\approximation.hpp(22): fatal error C1083: Cannot open include file: 'armadillo': No such file or directory
+  interaction.cpp
+d:\downloads\проект-каппа\проект\kappa\src\include\particle.hpp(9): fatal error C1083: Cannot open include file: 'armadillo': No such file or directory
+  mixture.cpp
+..\..\..\Kappa\src\mixtures\mixture.cpp(2718): fatal error C1083: Cannot open include file: 'kappa.hpp': No such file or directory
+  numeric.cpp
+d:\downloads\проект-каппа\проект\kappa\src\numeric.hpp(11): fatal error C1083: Cannot open include file: 'armadillo': No such file or directory
+  atom.cpp
+d:\downloads\проект-каппа\проект\kappa\src\particles\../include/atom.hpp(10): fatal error C1083: Cannot open include file: 'armadillo': No such file or directory
+  molecule.cpp
+d:\downloads\проект-каппа\проект\kappa\src\particles\../include/molecule.hpp(9): fatal error C1083: Cannot open include file: 'armadillo': No such file or directory
+  particle.cpp
+d:\downloads\проект-каппа\проект\kappa\src\particles\../include/particle.hpp(9): fatal error C1083: Cannot open include file: 'armadillo': No such file or directory
+  diffusion.cpp
+..\..\..\Kappa\tests\mixtures\diffusion.cpp(6): fatal error C1083: Cannot open include file: 'kappa.hpp': No such file or directory
+  thermodiffusion.cpp
+..\..\..\Kappa\tests\mixtures\thermodiffusion.cpp(5): fatal error C1083: Cannot open include file: 'kappa.hpp': No such file or directory
