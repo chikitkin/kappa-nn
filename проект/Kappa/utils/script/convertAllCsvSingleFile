@@ -1,0 +1,27 @@
+#!/bin/bash
+# 
+# File:   convertAllCsvSingleFile
+# Author: aspera
+#
+# Created on 06.03.2016, 12:26:18
+#
+
+
+for i in *.csv; do
+#    echo csv2YamlParticles "$i";
+    csv2YamlParticles "$i";
+done
+
+
+
+
+if [ -f "particle.yaml" ]
+then
+  echo "particle.yaml exist remove it"
+  rm "particle.yaml"
+fi
+
+for i in *.yaml; do
+    cat  "$i" >> "particles.yaml"
+done
+
